@@ -9,4 +9,5 @@ Eventually this site will use the following technologies:
 
 - Backend: Dotnet Core 3.1
 - Frontend: React (without Redux), Bootstrap (I'm questioning this)
-- Ops: Azure DevOps, Ansible, some CDN
+- Ops: Azure DevOps, Ansible, maybe some CDN, RabbitMQ, NServiceBus Sagas
+- Architecture: The app will use a DDD application architecture.
