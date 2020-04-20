@@ -1,1 +1,23 @@
-$primary-color: #333;
+// Colors
+$background-color: #323A45;
+
+$primary-color: #F5DEB3;
+
+$secondary-color: #85A3FF;
+$secondary-border-color: #1861ac;
+
+// Fonts
+$font-family:
+    /// From Bootstrap, for optimal rendering on devices
+    // Safari for OS X and iOS (San Francisco)
+    -apple-system,
+    // Chrome < 56 for OS X (San Francisco)
+    BlinkMacSystemFont,
+    // Windows
+    "Segoe UI",
+    // Android
+    "Roboto",
+    // Basic web fallback
+    "Helvetica Neue", Arial, sans-serif,
+    // Emoji fonts
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
