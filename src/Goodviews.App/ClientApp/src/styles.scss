@@ -6,6 +6,10 @@
 *::after {
   box-sizing: border-box;
 }
+*::selection {
+  background-color: $tertiary-color;
+  color: $secondary-color;
+}
 
 html {
   font-size: 18px;
@@ -18,7 +22,7 @@ body {
   font-family: $font-family;
   font-size: 1rem;
   line-height: 1.5;
-  
+
   @media (min-width: 768px) {
     font-size: 1.2rem;
   }
@@ -28,18 +32,22 @@ h1 { font-size: 4rem; line-height: 2; }
 h2 { font-size: 3rem; line-height: 1.8; }
 h3 { font-size: 2rem; line-height: 1.6; }
 
-a {
+a, a:visited {
   color: $secondary-color;
 
   &:hover {
-    color: $secondary-highlight-color;
+    color: lighten($secondary-color, 20%);
+  }
+
+  &:active {
+    color: darken($secondary-color, 20%);
   }
 }
 
 .btn-primary {
   color: $background-color;
   background-color: $secondary-color;
-  border-color: $secondary-border-color;
+  border-color: darken($secondary-color, 50%);
 }
 
 code {
