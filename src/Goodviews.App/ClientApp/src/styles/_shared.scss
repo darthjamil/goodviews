@@ -19,3 +19,8 @@ $font-family:
     "Helvetica Neue", Arial, sans-serif,
     // Emoji fonts
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+// Mixins
+@mixin box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}

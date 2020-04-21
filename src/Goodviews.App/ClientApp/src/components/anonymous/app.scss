@@ -1,0 +1,26 @@
+@import 'shared';
+
+.homepage {
+    header { grid-area: masthead; }
+    section.trending { grid-area: trending; }
+    section.browse { grid-area: brose; }
+    section.recommended { grid-area: recommended; }
+    section.social { grid-area: social; }
+    footer { grid-area: footer; }
+
+    display: grid;
+    grid-gap: 20px 10px;
+    grid-template-columns: 1/12 * 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'masthead masthead masthead masthead masthead masthead masthead masthead masthead masthead masthead masthead'
+        '. . . trending trending trending trending trending trending . . .'
+        '. . . brose brose brose brose brose brose . . .'
+        '. . . recommended recommended recommended recommended recommended recommended . . .'
+        '. . . social social social social social social . . .'
+        '. . . footer footer footer footer footer footer . . .';
+    
+    header {
+        margin: auto;
+    }
+}
