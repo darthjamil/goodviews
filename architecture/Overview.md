@@ -22,7 +22,7 @@ delivers the most number of complete use cases the quickest.
 - movie summary pages
 - carousels
 - account settings
-- personlized lists (shareable)
+- personalized lists (shareable)
 - ML-generated reccos
 - ...
 

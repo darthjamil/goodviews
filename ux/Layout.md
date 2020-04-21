@@ -7,3 +7,11 @@ I'll use a 12 column system, because there will likely be carousels that will
 benefit from more columns. The goal should be to implement the grid system 
 entirely in CSS, as opposed to referencing columns in markup; we can do this 
 with CSS Grid.  
+
+# What I'm Learning
+- Layout theory
+- CSS Grid
+- React basics
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://cssgrid-generator.netlify.app/  
