@@ -8,3 +8,4 @@ fullstack development, including backend, frontend, CI/CD, UX, SEO, and more.
 - CSS Grid
 - React
 - Software licensing
+- SEO
