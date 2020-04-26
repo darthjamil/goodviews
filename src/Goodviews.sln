@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Data", "Goodviews
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Services", "Goodviews.Services\Goodviews.Services.csproj", "{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.Contracts", "Goodviews.Shared\Goodviews.Contracts.csproj", "{657693A4-6D3D-431D-AC6B-DA718F0E7430}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.Contracts", "Goodviews.Contracts\Goodviews.Contracts.csproj", "{657693A4-6D3D-431D-AC6B-DA718F0E7430}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.Scheduler", "Goodviews.Scheduler\Goodviews.Scheduler.csproj", "{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}"
 EndProject
