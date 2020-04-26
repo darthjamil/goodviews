@@ -5,13 +5,17 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.App", "Goodviews.App\Goodviews.App.csproj", "{3B77197C-6C4A-4BF1-994B-39B572F11D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.UnitTests", "Goodviews.UnitTests\Goodviews.UnitTests.csproj", "{E61ACA68-5168-4F01-A4E3-710E38865169}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.UnitTests", "Goodviews.UnitTests\Goodviews.UnitTests.csproj", "{E61ACA68-5168-4F01-A4E3-710E38865169}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.Domain", "Goodviews.Domain\Goodviews.Domain.csproj", "{24579987-8343-4755-911A-8476055F53DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Domain", "Goodviews.Domain\Goodviews.Domain.csproj", "{24579987-8343-4755-911A-8476055F53DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.Data", "Goodviews.Data\Goodviews.Data.csproj", "{1EFCF651-0DD2-47FB-95D6-7C1EBDCA4B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Data", "Goodviews.Data\Goodviews.Data.csproj", "{1EFCF651-0DD2-47FB-95D6-7C1EBDCA4B3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.Services", "Goodviews.Services\Goodviews.Services.csproj", "{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Services", "Goodviews.Services\Goodviews.Services.csproj", "{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.Contracts", "Goodviews.Shared\Goodviews.Contracts.csproj", "{657693A4-6D3D-431D-AC6B-DA718F0E7430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.Scheduler", "Goodviews.Scheduler\Goodviews.Scheduler.csproj", "{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657693A4-6D3D-431D-AC6B-DA718F0E7430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657693A4-6D3D-431D-AC6B-DA718F0E7430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657693A4-6D3D-431D-AC6B-DA718F0E7430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657693A4-6D3D-431D-AC6B-DA718F0E7430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,16 +26,10 @@ delivers the most number of complete use cases the quickest.
 - ML-generated reccos
 - ...
 
-## Obtaining a Movies Database
-TODO
-Investigate https://trakt.tv/
-
-## Data Storage
-TODO
-
 # What I'm Learning
 ... from an architectural perspective
 - Agile SDLC principles in practice
+- SOA and domain modeling
 - DDD in practice
 - data storage mechanisms
 - search, indexing
