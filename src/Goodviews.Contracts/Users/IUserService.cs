@@ -33,7 +33,7 @@ namespace Goodviews.Users
         /// <param name="userId">The user whose friends we're getting</param>
         /// <param name="pagination">The current page and number of friends per page</param>
         /// <returns>A list of friends in alphabetical order according to their username</returns>
-        public List<User> GetFriends(Guid userId, Pagination pagination);
+        public Page<User> GetFriends(Guid userId, Pagination pagination);
 
         /// <summary>
         /// Submits a friends request on behalf of a user.
@@ -48,7 +48,7 @@ namespace Goodviews.Users
         /// <param name="userId">The user whose friend requests we're getting</param>
         /// /// <param name="pagination">The current page and number of friend requests per page</param>
         /// <returns>A list of users making a friend request to this person, ordered by the date of the request</returns>
-        public List<FriendRequest> GetFriendRequests(Guid userId, Pagination pagination);
+        public Page<FriendRequest> GetFriendRequests(Guid userId, Pagination pagination);
 
         /// <summary>
         /// Accepts the friend request of <code>requesterId</code>.
@@ -64,5 +64,13 @@ namespace Goodviews.Users
         /// <param name="userId">The user rejecting the request</param>
         /// <param name="requesterId">The user making the request</param>
         public void RejectFriendRequest(Guid userId, Guid requesterId);
+
+        /// <summary>
+        /// Retrieves a user's browse history.
+        /// </summary>
+        /// <param name="userId">The user whose history we're getting</param>
+        /// <param name="pagination">The current page and items per page/screen</param>
+        /// <returns>A paginated list of movies the user has browsed, ordered by view date descending</returns>
+        public Page<BrowseHistory> GetBrowseHistory(Guid userId, Pagination pagination);
     }
 }

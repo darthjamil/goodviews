@@ -11,7 +11,7 @@ namespace Goodviews.Discover
         /// </summary>
         /// <param name="pagination">How many carousels to show</param>
         /// <returns>A paginated set of carousels in the system, dynamic or otherwise</returns>
-        public List<Carousel> GetCarousels(Pagination pagination);
+        public Page<Carousel> GetCarousels(Pagination pagination);
 
         /// <summary>
         /// Creates a new curated carousel.

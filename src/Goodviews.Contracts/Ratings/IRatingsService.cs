@@ -35,6 +35,6 @@ namespace Goodviews.Ratings
         /// <param name="movieId">The ID of the movie whose comments we're getting</param>
         /// <param name="pagination">The current page and max items per page</param>
         /// <returns>A paginated set of comments for a movie in the order they added, with latest first</returns>
-        public List<Comment> GetMovieComments(Guid movieId, Pagination pagination);
+        public Page<Comment> GetMovieComments(Guid movieId, Pagination pagination);
     }
 }
