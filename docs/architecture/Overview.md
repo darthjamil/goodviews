@@ -41,3 +41,9 @@ TODO
 - search, indexing
 - machine learning
 - systems architecture, solutions architecture
+
+... from a technology perspective
+- CSS Grid
+- React
+- Software licensing
+- SEO
