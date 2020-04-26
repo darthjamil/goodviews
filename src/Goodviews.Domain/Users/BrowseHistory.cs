@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Goodviews.Discover
+namespace Goodviews.Users
 {
-    public class CuratedCarousel : Carousel
+    public class BrowseHistory
     {
+        public Guid UserId { get; set; }
         public List<Guid> MovieIds { get; set; }
     }
 }

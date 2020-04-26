@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Goodviews.Domain
+namespace Goodviews.Discover
 {
     public class UserList
     {
@@ -14,6 +14,9 @@ namespace Goodviews.Domain
         public string DateCreatedTimeZone { get; set; }
         public DateTime LastModifiedUtc { get; set; }
         public ListVisibility ListVisibility { get; set; }
+        /// <summary>
+        /// The number of movies in a user list will be capped
+        /// </summary>
         public List<UserListItem> Movies { get; set; }
     }
 }

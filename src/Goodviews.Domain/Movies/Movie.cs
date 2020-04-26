@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Goodviews.Domain
+namespace Goodviews.Movies
 {
     public class Movie
     {

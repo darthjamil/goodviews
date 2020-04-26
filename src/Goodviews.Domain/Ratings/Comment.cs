@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Goodviews.Domain
+namespace Goodviews.Ratings
 {
     public class Comment
     {

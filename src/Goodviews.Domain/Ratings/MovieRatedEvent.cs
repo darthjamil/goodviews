@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Goodviews.Domain;
+using System;
 
-namespace Goodviews.Domain
+namespace Goodviews.Ratings
 {
     public class MovieRatedEvent : Event
     {

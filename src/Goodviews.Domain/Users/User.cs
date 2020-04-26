@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace Goodviews.Domain
+namespace Goodviews.Users
 {
     public class User
     {
@@ -16,6 +17,7 @@ namespace Goodviews.Domain
         /// </summary>
         public string CountryCode { get; set; }
         public string AvatarUrl { get; set; }
+        public List<Guid> FriendIds { get; set; }
 
         public void Deactivate()
         {

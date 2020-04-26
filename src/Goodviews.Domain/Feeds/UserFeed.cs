@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Goodviews.Domain
+namespace Goodviews.Feeds
 {
     public class UserFeed
     {

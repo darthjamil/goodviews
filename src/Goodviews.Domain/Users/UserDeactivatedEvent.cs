@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Goodviews.Domain;
+using System;
 
-namespace Goodviews.Domain
+namespace Goodviews.Users
 {
     public class UserDeactivatedEvent : Event
     {

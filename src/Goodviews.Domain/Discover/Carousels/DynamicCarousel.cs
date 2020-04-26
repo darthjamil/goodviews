@@ -1,5 +1,5 @@
 ﻿
-namespace Goodviews.Domain
+namespace Goodviews.Discover
 {
     public class DynamicCarousel : Carousel
     {

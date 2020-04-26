@@ -1,5 +1,5 @@
 ﻿
-namespace Goodviews.Domain
+namespace Goodviews.Movies
 {
     public class Contributor
     {

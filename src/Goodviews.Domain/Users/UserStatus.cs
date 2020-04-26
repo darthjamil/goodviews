@@ -1,5 +1,5 @@
 ﻿
-namespace Goodviews.Domain
+namespace Goodviews.Users
 {
     public enum UserStatus
     {
