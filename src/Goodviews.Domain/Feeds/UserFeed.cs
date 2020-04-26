@@ -6,7 +6,7 @@ namespace Goodviews.Feeds
     public class UserFeed
     {
         /// <summary>
-        /// Who is this feed for
+        /// Who the feed is for
         /// </summary>
         public Guid FeedForUserId { get; set; }
         public DateTime LastViewed { get; set; }
