@@ -1,5 +1,4 @@
 ﻿using Goodviews.Contracts;
-using System;
 
 namespace Goodviews.Discover
 {
@@ -11,6 +10,6 @@ namespace Goodviews.Discover
         /// <param name="carouselId">The list to show</param>
         /// <param name="pagination">The page of results to show and number of items per page</param>
         /// <returns>An ordered list of movie IDs matching the query in the dynamic list, executed in real-time</returns>
-        public CuratedCarousel GetCarousel(Guid carouselId, Pagination pagination);
+        public CuratedCarousel GetCarousel(string carouselId, Pagination pagination);
     }
 }

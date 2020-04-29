@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Goodviews.Discover
 {
     public class CuratedCarousel : Carousel
     {
-        public List<Guid> MovieIds { get; set; }
+        public List<string> MovieIds { get; set; }
     }
 }

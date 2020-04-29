@@ -4,7 +4,9 @@ namespace Goodviews.Users
 {
     public class FriendRequest
     {
-        public User Requester { get; set; }
+        public string Id => $"friend-request/{RequesteeUserId}/{RequesterUserId}";
+        public string RequesterUserId { get; set; }
+        public string RequesteeUserId { get; set; }
         public DateTime DateRequestedUtc { get; set; }
     }
 }

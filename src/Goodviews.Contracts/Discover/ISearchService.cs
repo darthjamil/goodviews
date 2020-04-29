@@ -1,6 +1,4 @@
 ﻿using Goodviews.Contracts;
-using System;
-using System.Collections.Generic;
 
 namespace Goodviews.Discover
 {
@@ -13,7 +11,7 @@ namespace Goodviews.Discover
         /// <param name="sortOrder">The order in which to return the results</param>
         /// <param name="pagination">The page of results to show and number of items per page</param>
         /// <returns>An ordered list of movie IDs matching the search term</returns>
-        public Page<Guid> Search(string query, SortOrder sortOrder, Pagination pagination);
+        public Page<string> Search(string query, SortOrder sortOrder, Pagination pagination);
 
         /// <summary>
         /// Perform an advanced search using a query term and facet filters.
@@ -21,7 +19,7 @@ namespace Goodviews.Discover
         /// <param name="criteria">The filtering facets and search term</param>
         /// <param name="pagination">The page of results to show and number of items per page</param>
         /// <returns>An ordered list of movie IDs matching the search criteria</returns>
-        public Page<Guid> Search(SearchCriteria criteria, Pagination pagination);
+        public Page<string> Search(SearchCriteria criteria, Pagination pagination);
 
         /// <summary>
         /// Look for all movies in a particular genre.
@@ -30,7 +28,7 @@ namespace Goodviews.Discover
         /// <param name="sortOrder">The order in which to return the results</param>
         /// <param name="pagination">The page of results to show and number of items per page</param>
         /// <returns>A list of movie IDs in the provided category, ordered by </returns>
-        public Page<Guid> Browse(string genre, SortOrder sortOrder, Pagination pagination);
+        public Page<string> Browse(string genre, SortOrder sortOrder, Pagination pagination);
 
         /// <summary>
         /// Retrieves the items of a dyanmic list of executing the underlying query.
@@ -39,6 +37,6 @@ namespace Goodviews.Discover
         /// <param name="sortOrder">The order in which to return the results</param>
         /// <param name="pagination">The page of results to show and number of items per page</param>
         /// <returns>An ordered list of movie IDs matching the query in the dynamic list, executed in real-time</returns>
-        public Page<Guid> GetDynamicCarousel(Guid listId, SortOrder sortOrder, Pagination pagination);
+        public Page<string> GetDynamicCarousel(string listId, SortOrder sortOrder, Pagination pagination);
     }
 }

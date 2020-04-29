@@ -6,7 +6,7 @@ namespace Goodviews.Movies
 {
     public class Movie
     {
-        public Guid Id { get; set; }
+        public string Id { get; set; }
         public string Title { get; set; }
         public string Synopsis { get; set; }
         /// <summary>

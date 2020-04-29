@@ -5,7 +5,7 @@ namespace Goodviews.Users
 {
     public class User
     {
-        public Guid Id { get; set; }
+        public string Id { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
         public UserStatus Status { get; set; }
@@ -17,7 +17,7 @@ namespace Goodviews.Users
         /// </summary>
         public string CountryCode { get; set; }
         public string AvatarUrl { get; set; }
-        public List<Guid> FriendIds { get; set; }
+        public List<string> FriendIds { get; set; }
 
         public void Deactivate()
         {
