@@ -1,4 +1,4 @@
-﻿using Goodviews.Contracts;
+﻿using Goodviews.Services;
 
 namespace Goodviews.Ratings
 {

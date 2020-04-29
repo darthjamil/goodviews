@@ -1,4 +1,4 @@
-﻿using Goodviews.Domain;
+﻿using Goodviews.Services;
 
 namespace Goodviews.Users
 {

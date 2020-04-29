@@ -16,4 +16,11 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Goodviews.App\Goodviews.App.csproj" />
+    <ProjectReference Include="..\Goodviews.Scheduler\Goodviews.Scheduler.csproj" />
+    <ProjectReference Include="..\Goodviews.Services\Goodviews.Services.csproj" />
+    <ProjectReference Include="..\Goodviews.Worker\Goodviews.Worker.csproj" />
+  </ItemGroup>
+
 </Project>

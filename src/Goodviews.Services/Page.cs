@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Goodviews.Contracts
+namespace Goodviews.Services
 {
     public class Page<T>
     {

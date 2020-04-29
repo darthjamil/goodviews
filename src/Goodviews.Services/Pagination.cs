@@ -1,5 +1,5 @@
 ﻿
-namespace Goodviews.Contracts
+namespace Goodviews.Services
 {
     public class Pagination
     {

@@ -1,5 +1,4 @@
-﻿using Goodviews.Contracts;
-using System;
+﻿using Goodviews.Services;
 using System.Collections.Generic;
 
 namespace Goodviews.Discover

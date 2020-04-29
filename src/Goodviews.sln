@@ -7,19 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.App", "Goodviews.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.UnitTests", "Goodviews.UnitTests\Goodviews.UnitTests.csproj", "{E61ACA68-5168-4F01-A4E3-710E38865169}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Domain", "Goodviews.Domain\Goodviews.Domain.csproj", "{24579987-8343-4755-911A-8476055F53DD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Data", "Goodviews.Data\Goodviews.Data.csproj", "{1EFCF651-0DD2-47FB-95D6-7C1EBDCA4B3C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Services", "Goodviews.Services\Goodviews.Services.csproj", "{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Contracts", "Goodviews.Contracts\Goodviews.Contracts.csproj", "{657693A4-6D3D-431D-AC6B-DA718F0E7430}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Scheduler", "Goodviews.Scheduler\Goodviews.Scheduler.csproj", "{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goodviews.Worker", "Goodviews.Worker\Goodviews.Worker.csproj", "{E742E64C-A632-4D57-BCB9-B90375C3BBA0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntryPoints", "EntryPoints", "{F31D2F9B-856A-4E52-AB66-E3EBA2C5005A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goodviews.Worker", "Goodviews.Worker\Goodviews.Worker.csproj", "{E742E64C-A632-4D57-BCB9-B90375C3BBA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,22 +27,10 @@ Global
 		{E61ACA68-5168-4F01-A4E3-710E38865169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E61ACA68-5168-4F01-A4E3-710E38865169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E61ACA68-5168-4F01-A4E3-710E38865169}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24579987-8343-4755-911A-8476055F53DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24579987-8343-4755-911A-8476055F53DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24579987-8343-4755-911A-8476055F53DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24579987-8343-4755-911A-8476055F53DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1EFCF651-0DD2-47FB-95D6-7C1EBDCA4B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EFCF651-0DD2-47FB-95D6-7C1EBDCA4B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EFCF651-0DD2-47FB-95D6-7C1EBDCA4B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EFCF651-0DD2-47FB-95D6-7C1EBDCA4B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A6F45AF-E5BB-42D6-98F7-C51B606272DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{657693A4-6D3D-431D-AC6B-DA718F0E7430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{657693A4-6D3D-431D-AC6B-DA718F0E7430}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{657693A4-6D3D-431D-AC6B-DA718F0E7430}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{657693A4-6D3D-431D-AC6B-DA718F0E7430}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5EE8C45-CCF8-4386-92AD-5855A1D054E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -62,11 +42,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{3B77197C-6C4A-4BF1-994B-39B572F11D49} = {F31D2F9B-856A-4E52-AB66-E3EBA2C5005A}
-		{F5EE8C45-CCF8-4386-92AD-5855A1D054E6} = {F31D2F9B-856A-4E52-AB66-E3EBA2C5005A}
-		{E742E64C-A632-4D57-BCB9-B90375C3BBA0} = {F31D2F9B-856A-4E52-AB66-E3EBA2C5005A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEF033A5-E731-41D2-A10D-12CBE3C87407}

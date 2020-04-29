@@ -1,5 +1,4 @@
-﻿using Goodviews.Domain;
-using System;
+﻿using Goodviews.Services;
 
 namespace Goodviews.Ratings
 {
