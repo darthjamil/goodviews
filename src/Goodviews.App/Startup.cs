@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Raven.Client.Documents;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Goodviews
 {
@@ -17,11 +19,28 @@ namespace Goodviews
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllersWithViews();
+
+            var settings = new Settings();
+            Configuration.Bind(settings);
+
+            var store = new DocumentStore
+            {
+                Urls = settings.Database.Urls,
+                Database = settings.Database.DatabaseName,
+                Certificate = new X509Certificate2(settings.Database.CertPath, settings.Database.CertPass)
+            };
+
+            store.Initialize();
+            services.AddSingleton<IDocumentStore>(store);
+            services.AddScoped(serviceProvider =>
+            {
+                return serviceProvider
+                    .GetService<IDocumentStore>()
+                    .OpenAsyncSession();
+            });
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -30,7 +49,6 @@ namespace Goodviews
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
