@@ -7,7 +7,7 @@ trending carousels, etc. Users can also create curated lists that they
 can optionally share. Users also see a feed of friends activity.  
 
 Then we identify bounded contexts. A client UI can read from multiple
-bounded context in order to show a coherent UI. But one bounded context
+bounded contexts in order to show a coherent UI. But one bounded context
 should not require request/response-ing with other bounded contexts; as 
 soon as that seems like a requirement, it's a sign that the SOA boundaries
 are not correct. The various contexts should be passing messages back and 
@@ -26,3 +26,6 @@ following events:
 - User Deactivated (required for deactivating lists and so on)
 - List Created/Amended (required for feeds)
 - Rating or Comment Added (required for feeds)
+
+# What I'm Learning
+- Domain modeling
